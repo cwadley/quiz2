@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8"
+		<meta charset="UTF-8">
 		<title>Quiz 2</title>
+		<link rel="stylesheet" type="text/css" href="quiz2.css">
 	</head>
 	<body>
 		
@@ -11,27 +12,32 @@
 			<p>Make sure the containers below respond to the events or functions implemented with quiz2.js</p>
 			<div class="evens">			
 				<div class="click">
-					<span>click event</span>
+					<span>Click Event</span>
+					<hr>
 				</div>
 				<div class="mouse-over">
-					<span>mouse over event</span>
+					<span class="mouseTitle">Mouse Over Event</span>
+					<hr>
 					<p>Who's the richest person you know? (mouse over to find out)</p>
 				</div>
 				<div>
-					<span>submit event</span>
+					<span class="submitTitle">Submit Event</span>
+					<hr>
 					<!-- The form not having an action or method is not a bug in this case -->
-					<form>
+					<form class="submit">
 						<label for="form">AJAX, yo!</label>
-						<input type="text" id="form" name="form" placeholder="Enter Some Text" />
-						<input value="SUBMIT">
+						<input type="text" id="form" name="form" placeholder="Enter Some Text">
+						<input type="submit" value="SUBMIT">
 					</form>
 				</div>
-				div class="timeout">
-					<span>timeout function</span>
+				<div class="timeout" style="display: none;">
+					<span>Timeout Function</span>
+					<hr>
 				</div>
 			</div>
-		
+		</div>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="quiz2.js"></script>
 	</body>
 </html>

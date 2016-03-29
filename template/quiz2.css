@@ -1,6 +1,6 @@
 html body {
 	font-family: 'Helvetica', Arial, sans-serif;
-	color: #111
+	color: #111;
 	background: #E7E7E7;
 }
 
@@ -10,25 +10,46 @@ a {
 
 .content {
 	text-align: center
-	padding: 0 15% 20px;
+	padding: 0px 15% 20px;
+	margin-left: 10px;
 }
 
 .content h1 {
 	text-transform: uppercase;
 	font-weight: bold;
-	margin: 20px 0;
+	margin: 20px 0px;
+}
 
 
-content form {
+.content form {
 	padding: 10px;
 	width: 300px;
-	margin: 0 auto;
+	margin: 0px auto;
 }
 
 .content form input {
 	width: 100%;
-	// border: 2px solid #107394;
+	border: 2px solid #107394;
 	color: #107394;
 	background: transparent;
-	magrin-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+button {
+	border: 2px solid #107394;
+	color: #107394;
+	background: transparent;
+}
+
+#buttons {
+	margin-top: 30px;
+}
+
+
+#title {
+	margin-top: 20px;
+}
+
+.click, .mouseTitle, .submitTitle, .timeout, .dataTitle {
+	font-size: 125%;
 }
